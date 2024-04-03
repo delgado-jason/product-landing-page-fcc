@@ -1,4 +1,7 @@
 # product-landing-page-fcc
 
 ### Design Phase
-10 hours
+10 Hours
+
+### Production Phase
+2 Hours
