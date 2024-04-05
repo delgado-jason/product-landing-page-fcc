@@ -17,50 +17,25 @@
     </head>
     <body>
         
-        <main class="main">
+        <main class="main container-flex">
 
             <!-- HEADER SECTION -->
             <header id="id" class="header">
-
-                <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary" id="nav-bar">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">
-                        <img src="./images/logo.png" alt="A logo saying TechGuard" id="header-img">
-                      </a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#features">Features</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#testimonials">
-                              Testimonials
-                            </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#buyNow">
-                                  Buy Now
-                                </a>
-                            </li>
-                        </ul> 
-                      </div>
-                    </div>
-                  </nav>
+                <div class="logo">
+                    <img src="./images/72ppi/logo-glow.png" alt="The TechGuard Logo">
+                </div>
+                <nav class="navbar">
+                    <img src="./icons/hamburger.png" alt="Hamburger for navigation">
+                </nav>
 
             </header>
 
             <!-- HERO SECTION -->
             <section class="hero" id="home">
                 <img src="./images/hero.jpg" alt="A picture of a smart home security camera">
-                <h1>Discover Peace of Mind with the TechGuard Smart Home Security Camera</h1>
+                <h1>Discover Peace of Mind with the TechGuard <span>Smart</span> Home Security Camera</h1>
                 <h3>Protect what matters most with advanced features and seamless integration.</h3>
-                <button id="learnMore">Learn More</button>
+                <button id="learnMore" class="">Learn More</button>
             </section>
 
             <!-- FEATURES SECTION -->
@@ -86,7 +61,7 @@
                 </div>
             </section>
 
-            <!-- FEATURES SECTION -->
+            <!-- TESTIMONIALS SECTION -->
             <section id="testimonials" class="testimonials">
                 <h2>What Our Customers Are Saying</h2>
                 <div class="test-card">
@@ -111,14 +86,14 @@
                 <img src="./images/security-camera.png" alt="A photo of the Lorex security camera">
                 <h1 class="buy-now-title">Lorex</h1>
                 <h2>High-end Wi-Fi and IP camera with 4K color and night vision</h2>
-                <button id="buyNowBtn">Buy Now</button>
+                <button id="buyNowBtn" class="btn">Buy Now</button>
             </section>
 
             <!-- MORE INFO FORM -->
             <form action="https://www.freecodecamp.com/email-submit" id="form">
                 <h3>Request More Info</h3>
                 <input type="email" id="email" placeholder="email" required />
-                <input type="submit" id="submit">
+                <input type="submit" id="submit" class="btn">
             </form>
 
         </main>

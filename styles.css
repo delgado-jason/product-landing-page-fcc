@@ -1,7 +1,7 @@
 :root {
     font-size: 1em;
 
-    /* COLORS */
+    /* Colors */
     --main-bg-color: #000;
     --secondary-bg-color: #041728;
     --primary-color: #06D9F6;
@@ -11,8 +11,258 @@ body {
     font-family: "Kanit", sans-serif;
     color: white;
     background-color: var(--main-bg-color);
+    width: 90%;
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 h1 {
     font-size: 2rem;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+h3 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+small {
+    font-size: 0.875rem;
+}
+
+.container-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+/*------------------
+    HEADER SECTION    
+-----------------*/
+.header {
+    display: flex;
+    height: 5em;
+    padding: 2em 2em 2em 0;
+    margin-bottom: 2.5em;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+}
+
+.logo img {
+    scale: 1.25;
+}
+
+/*------------------
+    HERO SECTION    
+-----------------*/
+.hero {
+    text-align: center;
+}
+
+.hero img {
+    margin-bottom: 2em;
+}
+
+.hero h1 {
+    margin-bottom: .8em;
+}
+
+.hero h1 span {
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-underline-offset: .2em;
+}
+
+.hero h3 {
+    margin-bottom: 1.5em;
+}
+
+.btn {
+    width: 100%;
+    max-width: 425px;
+    height: 3.5em;
+    border-radius: .625em;
+    margin-bottom: 2.5em;
+    background-color: var(--primary-color);
+    color: var(--secondary-bg-color);
+    border: none;
+}
+
+/*------------------
+    FEATURES SECTION    
+-----------------*/
+
+.features video {
+    width: 100%;
+    max-width: 606px;
+    margin-bottom: .8em;
+    border: 3px solid var(--primary-color);
+    border-radius: 10px;
+}
+
+.feature-card {
+    width: 100%;
+    max-width: 445px;
+    background-color: var(--secondary-bg-color);
+    margin-bottom: 1.5em;
+    padding: 1em;
+    text-align: center;
+    border-radius: .625em;
+}
+
+.feature-card img {
+    width: 40px;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.feature-card h3 {
+    margin-bottom: .8em;
+    text-decoration: underline;
+    text-decoration-color: var(--primary-color);
+    text-underline-offset: .4em;
+}
+
+/*------------------
+    TESTIMONIALS SECTION    
+-----------------*/
+.test-card {
+    background-image: linear-gradient(#06D9F6, #045D6A, var(--secondary-bg-color));
+    width: 100%;
+    max-width: 400px;
+    padding: 1em;
+    border-radius: .625em;
+    margin-bottom: 1.5em;
+}
+
+.test-card img {
+    width: 104px;
+    height: 104px;
+    border-radius: 50%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.test-card small {
+    display: block;
+    text-align: center;
+    margin-bottom: .8em;
+}
+
+/*------------------
+    BUY NOW SECTION    
+-----------------*/
+.buy-now {
+    background-color: var(--secondary-bg-color);
+    padding: 1em;
+    border-radius: .625em;
+    margin: 1em 0 2.5em;
+}
+
+.buy-now img {
+    width: 100%;
+    max-width: 714px;
+    margin-bottom: .8em;
+}
+
+.buy-now h1 {
+    font-size: 6.25rem;
+    text-align: center;
+}
+
+/*------------------
+    MORE INFO SECTION    
+-----------------*/
+form {
+    background-color: var(--secondary-bg-color);
+    width: 100%;
+    padding: 1em;
+    border-radius: .625em;
+    margin-bottom: 2.5em;
+}
+
+form h3 {
+    text-align: center;
+    margin-bottom: .8em;
+}
+
+form input[type="email"] {
+    width: 100%;
+    height: 2.5em;
+    border-radius: .625em;
+    background-color: var(--main-bg-color);
+    margin-bottom: .8em;
+}
+
+input::placeholder {
+    padding-left: 1em;
+}
+
+form .btn {
+    margin-bottom: .5em;
+}
+
+/*------------------
+    FOOTER SECTION    
+-----------------*/
+footer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 9em 3em 5em;
+    row-gap: 1.5em;
+    column-gap: 1.2em;
+}
+
+.footer-nav  {
+    list-style-type:  none;
+    padding: 0;
+    border-right: 1px solid var(--primary-color);
+}
+
+.footer-nav li {
+    margin-bottom: 1em;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-nav p {
+    padding-left: 3em;
+}
+
+footer .social {
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+footer img {
+    height: 32px;
+    background-color: var(--primary-color);
+    margin-right: 1em;
+    border-radius: .625em;
+}
+
+footer small {
+    align-self: center;
 }
