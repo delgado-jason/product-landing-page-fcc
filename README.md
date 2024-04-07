@@ -5,4 +5,3 @@
 
 ### Production Phase
 6 Hours
-2 Hours
