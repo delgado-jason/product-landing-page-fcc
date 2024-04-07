@@ -1,3 +1,5 @@
+[logo](./images/logo.png)
+
 # product-landing-page-fcc
 
 ### Design Phase
