@@ -7,4 +7,4 @@
 10 Hours
 
 ### Production Phase
-8.5 Hours
+9.5 Hours
