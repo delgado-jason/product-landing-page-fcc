@@ -67,6 +67,10 @@ small {
     scale: 1.25;
 }
 
+.navbar {
+    display: none;
+}
+
 /*------------------
     HERO SECTION    
 -----------------*/
@@ -291,7 +295,12 @@ footer small {
 -----------------*/
 
 @media screen and (min-width: 600px) {
-
+    /* Header Section */
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+    }
 
     /* Hero Section */
     .hero img {
