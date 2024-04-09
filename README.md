@@ -1,10 +1,10 @@
 # product-landing-page-fcc
 
 ### Total Time to Completion
-8 Days and counting
+10 Days
 
 ### Design Phase
 10 Hours
 
 ### Production Phase
-9.5 Hours
+10 Hours
